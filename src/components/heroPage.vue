@@ -76,11 +76,15 @@ export default {
 @media (max-width: 768px) {
     .carousel-inner .carousel-item img {
         max-height: 300px;
-        max-width: 300px;
+        max-width: 100%;
     }
 
     .carousel-caption h5 {
         font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-weight: 700;
     }
 }
 </style>
