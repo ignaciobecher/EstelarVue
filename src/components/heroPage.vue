@@ -40,9 +40,9 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="animate__animated animate__slideInLeft">
+    <!-- <div class="animate__animated animate__slideInLeft">
         <h1>Animacion</h1>
-    </div>
+    </div> -->
 </template>
 
 <script>
