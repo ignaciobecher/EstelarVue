@@ -15,8 +15,7 @@
             </div>
 
             <div class="col-md-6 p-0 text-center">
-                <img src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    class="w-100" alt="">
+                <img src="../assets/aboutfot.png" class="w-100" alt="">
             </div>
             <div class="col-md-6 p-4 p-sm-5">
                 <small class="text-uppercase" style="color: #e85e00;"></small>
