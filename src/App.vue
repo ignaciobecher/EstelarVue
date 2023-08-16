@@ -18,4 +18,18 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/* #e75f00 naranja principal
+#141922 negro
+#fecb4c amaraillo
+#f28f0e naranja clarp
+#c5b597 gris
+#e85e00  */
+</style>

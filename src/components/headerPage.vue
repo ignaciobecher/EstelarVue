@@ -2,7 +2,8 @@
     <div class="container-fluid px-4 py-5 my-5 text-center">
         <div class="lc-block mb-4">
             <div editable="rich">
-                <h2 class="display-2 fw-bold">Transformando ideas <span class="text-primary">en realidad digital!</span>
+                <h2 class="display-2 fw-bold">Transformamos ideas <span id="mainText" class="text-primary">en realidad
+                        digital!</span>
                 </h2>
             </div>
         </div>
@@ -15,12 +16,10 @@
         </div>
 
         <div class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"> <a
-                class="btn btn-primary btn-lg px-4 gap-3" href="#" role="button">Quiero saber mas</a>
-            <a class="btn btn-outline-secondary btn-lg px-4" href="#" role="button">Contacto</a>
+                class="btn btn-primary btn-lg px-4 gap-3" id="btnMore" href="#" role="button">Quiero saber mas</a>
+            <a class="btn btn-outline-secondary btn-lg px-4" id="btnContact" href="#" role="button">Contacto</a>
         </div>
-        <div class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <img class="img-fluid" src="../assets/logoConLetras.png" width="" height="783" srcset="" sizes="" alt="">
-        </div>
+
     </div>
 </template>
 
@@ -31,6 +30,22 @@ export default {
 </script>
 
 <style scoped>
+.text-primary {
+    color: #e75f00 !important
+}
+
+
+
+#btnMore:hover {
+    background-color: #f28f0e;
+    color: #141922;
+}
+
+#btnContact:hover {
+    background-color: #f28f0e;
+    color: #141922;
+}
+
 .hero-container {
 
     background-size: cover;
