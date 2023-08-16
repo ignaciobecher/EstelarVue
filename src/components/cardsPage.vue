@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 animate__animated animate__fadeInLeft">
+            <div class="col-md-4 animate__animated " ref="animatedElement1">
                 <div class="card card-1">
                     <h3>Marketing</h3>
                     <p>Ofrecemos desde manejo de redes y ganancia de seguidores, hasta
@@ -10,14 +10,14 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 animate__animated animate__fadeInRight ">
-                <div class="card card-2 ">
+            <div class="col-md-4 animate__animated " ref="animatedElement2">
+                <div class="card card-2">
                     <h3>Fotografia</h3>
                     <p>En Estelar te brindamos <span style="color: #e85e00">fotografia</span> completa y de calidad, <span
                             style="color: #e85e00">filmacion</span> con actores y postproduccion.</p>
                 </div>
             </div>
-            <div class="col-md-4 animate__animated animate__fadeInLeft">
+            <div class="col-md-4 animate__animated " ref="animatedElement3">
                 <div class="card card-3 ">
                     <h3>Programacion</h3>
                     <p>Ayudamos a tu negocio con el software, desde <span style="color: #e85e00">paginas web</span> hasta
@@ -31,8 +31,30 @@
 
 <script>
 export default {
-}
+    mounted() {
+        const options = {
+            threshold: 0.4 // Ajusta este valor según tus necesidades
+        };
 
+        const observer1 = new IntersectionObserver(this.animateOnScroll, options);
+        observer1.observe(this.$refs.animatedElement1);
+
+        const observer2 = new IntersectionObserver(this.animateOnScroll, options);
+        observer2.observe(this.$refs.animatedElement2);
+
+        const observer3 = new IntersectionObserver(this.animateOnScroll, options);
+        observer3.observe(this.$refs.animatedElement3);
+    },
+    methods: {
+        animateOnScroll(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate__fadeInLeft'); // Cambia a la animación que desees
+                }
+            });
+        }
+    }
+}
 </script>
 
 <style scoped>
