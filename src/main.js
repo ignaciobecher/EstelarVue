@@ -5,6 +5,7 @@ import "jquery"
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/js/bootstrap.js'
 import 'animate.css';
+import "hover.css"
 
 import router from "./components/routes"; // No uses llaves para importar el router
 

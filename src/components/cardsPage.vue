@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 animate__animated animate__fadeInLeft">
                 <div class="card card-1">
                     <h3>Marketing</h3>
                     <p>Ofrecemos desde manejo de redes y ganancia de seguidores, hasta
@@ -10,15 +10,15 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card card-2">
+            <div class="col-md-4 animate__animated animate__fadeInRight ">
+                <div class="card card-2 ">
                     <h3>Fotografia</h3>
                     <p>En Estelar te brindamos <span style="color: #e85e00">fotografia</span> completa y de calidad, <span
                             style="color: #e85e00">filmacion</span> con actores y postproduccion.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card card-3">
+            <div class="col-md-4 animate__animated animate__fadeInLeft">
+                <div class="card card-3 ">
                     <h3>Programacion</h3>
                     <p>Ayudamos a tu negocio con el software, desde <span style="color: #e85e00">paginas web</span> hasta
                         <span style="color: #e85e00">aplicaciones</span> moviles o programas de gestion.
@@ -31,8 +31,8 @@
 
 <script>
 export default {
-
 }
+
 </script>
 
 <style scoped>
