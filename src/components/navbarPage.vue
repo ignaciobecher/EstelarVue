@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="navbarContainer" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <img src="../assets/logoSinLetras.png" alt="Logo" class="logo">
@@ -32,6 +32,23 @@ export default {
 </script>
   
 <style scoped>
+.navbar-toggler {
+    background-color: #f28f0e;
+}
+
+
+#navbarContainer {
+    background-color: #141922 !important
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #e85e00;
+}
+
 .logo {
     max-width: 100px;
     /* Adjust the size of the logo */
