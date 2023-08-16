@@ -14,7 +14,10 @@
                         <router-link class="nav-link" to="/">Inicio</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/header">Header</router-link>
+                        <router-link class="nav-link" to="/about">Nosotros</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/contact">Contacto</router-link>
                     </li>
                 </ul>
             </div>

@@ -11,7 +11,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4 order-md-2 text-md-end">
+                <div id="contactData" class="col-md-4 order-md-2 text-md-end">
                     <p>Dirección: Calle Principal, Ciudad</p>
                     <p>Teléfono: (123) 456-7890</p>
                     <p>Email: info@tuempresa.com</p>
@@ -30,3 +30,18 @@ export default {
 
 }
 </script>
+
+<style scoped>
+.container {
+    background-color: black;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color: white;
+}
+
+#contactData {
+    color: white
+}
+</style>
