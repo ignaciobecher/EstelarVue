@@ -14,6 +14,7 @@
                 <div class="carousel-caption d-block">
                     <h5>Programacion</h5>
                     <p>En Estelar media realizamos todo tipo de programacion</p>
+                    <a class="btn btn-primary btn-sm px-2" id="btnContact" href="#" role="button">Más información</a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -21,6 +22,7 @@
                 <div class="carousel-caption d-block">
                     <h5>Fotografia</h5>
                     <p>En Estelar media realizamos fotografia.</p>
+                    <a class="btn btn-primary btn-sm px-2" id="btnContact" href="#" role="button">Más información</a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -28,6 +30,7 @@
                 <div class="carousel-caption d-block">
                     <h5>Marketing</h5>
                     <p>En Estelar media realizamos marketing.</p>
+                    <a class="btn btn-primary btn-sm px-2" id="btnContact" href="#" role="button">Más información</a>
                 </div>
             </div>
         </div>
