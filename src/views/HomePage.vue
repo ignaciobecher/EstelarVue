@@ -1,6 +1,6 @@
 <template>
     <headerPage></headerPage>
-    <heroPage></heroPage>
+    <productsPage></productsPage>
     <aboutPage></aboutPage>
     <cardsPage></cardsPage>
     <contactPage></contactPage>
@@ -13,10 +13,11 @@ import cardsPage from "../components/cardsPage.vue"
 import aboutPage from "../components/aboutPage.vue"
 import footerPage from "../components/footerPage.vue"
 import headerPage from '@/components/headerPage.vue';
-import heroPage from '@/components/heroPage.vue';
+import productsPage from "../components/productsPage.vue"
+
 export default {
     components: {
-        headerPage, heroPage, footerPage, aboutPage, cardsPage, contactPage
+        headerPage, footerPage, aboutPage, cardsPage, contactPage, productsPage
     }
 }
 </script>
