@@ -20,7 +20,9 @@
 
         <div class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"> <a
                 class="btn btn-primary btn-lg px-4 gap-3" id="btnMore" href="#" role="button">Quiero saber mas</a>
-            <a class="btn btn-primary btn-lg px-4" id="btnContact" href="#" role="button">Contacto</a>
+            <a class="btn btn-primary btn-lg px-4" id="btnContact" href="#" role="button">
+                <router-link class="nav-link" to="/contact">Contacto</router-link>
+            </a>
         </div>
 
     </div>

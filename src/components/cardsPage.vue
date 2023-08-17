@@ -5,8 +5,8 @@
                 <div class="card card-1">
                     <h3>Marketing</h3>
                     <p>Ofrecemos desde manejo de redes y ganancia de seguidores, hasta
-                        publicidad
-                        <span style="color: #e85e00">vehiculo y radio </span>en vehiculo y radio
+                        publicidad en
+                        <span style="color: #e85e00">vehiculo y radio </span>
                     </p>
                 </div>
             </div>
