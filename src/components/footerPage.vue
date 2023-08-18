@@ -9,7 +9,12 @@
                                 <router-link class="nav-link" to="/"><i class="bi bi-house"></i> Inicio</router-link>
                             </a>
                         </li>
-                        <li><a href="#"><i class="bi bi-people"></i> Nosotros</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-people">
+                                </i> Nosotros
+                            </a>
+                        </li>
                         <li><a href="#"><i class="bi bi-tools"></i> Servicios</a></li>
                         <li>
                             <a href="#">

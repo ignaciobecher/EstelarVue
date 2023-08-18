@@ -21,6 +21,10 @@
                         <router-link class="nav-link" :class="{ 'active': $route.path === '/contact' }"
                             to="/contact">Contacto</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
+                            to="/services">Servicios</router-link>
+                    </li>
                 </ul>
             </div>
         </div>
