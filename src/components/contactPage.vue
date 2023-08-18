@@ -2,7 +2,7 @@
     <div class="container ">
         <div class="row ">
             <div class="col-12 col-md-8 mx-md-auto mt-5 text-center">
-                <h1 class="mb-4">Contacto</h1>
+                <h1 class="mb-4"> Contacto</h1>
                 <form class="px-2 px-sm-5 py-5 rounded">
                     <div class="form-group">
                         <label for="phone">Nombre</label>

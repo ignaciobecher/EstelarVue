@@ -6,24 +6,24 @@
                     <ul class="list-unstyled">
                         <li>
                             <a href="#">
-                                <router-link class="nav-link" to="/">Inicio</router-link>
+                                <router-link class="nav-link" to="/"><i class="bi bi-house"></i> Inicio</router-link>
                             </a>
                         </li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Portafolio</a></li>
+                        <li><a href="#"><i class="bi bi-people"></i> Nosotros</a></li>
+                        <li><a href="#"><i class="bi bi-tools"></i> Servicios</a></li>
                         <li>
                             <a href="#">
                                 <router-link class="nav-link" :class="{ 'active': $route.path === '/contact' }"
-                                    to="/contact">Contacto</router-link>
+                                    to="/contact"><i class="bi bi-phone"></i> Contacto</router-link>
                             </a>
                         </li>
                     </ul>
                 </div>
 
                 <div id="contactData" class="col-md-4 order-md-2 text-md-end">
-                    <p>Villa Mercedes (San Luis)</p>
-                    <p>2657-123456</p>
-                    <p>estelarmkting@gmail.com</p>
+                    <p>Villa Mercedes (San Luis) <i class="bi bi-geo-alt"></i></p>
+                    <p>2657-123456 <i class="bi bi-telephone"></i></p>
+                    <p>estelarmkting@gmail.com <i class="bi bi-envelope"></i></p>
                 </div>
                 <div class="col-md-4 order-md-3 text-center">
                     <img src="../assets/logoConLetras.png" alt="Logo de Tu Empresa" class="img-fluid"
