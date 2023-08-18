@@ -26,7 +26,7 @@
                     <p>estelarmkting@gmail.com <i class="bi bi-envelope"></i></p>
                 </div>
                 <div class="col-md-4 order-md-3 text-center">
-                    <img src="../assets/logoConLetras.png" alt="Logo de Tu Empresa" class="img-fluid"
+                    <img src="../assets/logoConLetrasNaranjas.png" alt="Logo de Tu Empresa" class="img-fluid"
                         style="max-width: 100px;">
                     <p>Desarrollado por <a id="becherLink" href="https://bechersoftware.vercel.app/" target="_blank">Becher
                             Software</a></p>
