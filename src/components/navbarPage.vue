@@ -11,13 +11,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/">Inicio</router-link>
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/' }" to="/">Inicio</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/about">Nosotros</router-link>
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/about' }"
+                            to="/about">Nosotros</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/contact">Contacto</router-link>
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/contact' }"
+                            to="/contact">Contacto</router-link>
                     </li>
                 </ul>
             </div>
@@ -32,6 +34,10 @@ export default {
 </script>
   
 <style scoped>
+.nav-item .nav-link.active {
+    color: #f28f0e
+}
+
 .navbar-toggler {
     background-color: #f28f0e;
 }

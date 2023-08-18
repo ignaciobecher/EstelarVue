@@ -17,7 +17,7 @@ import productsPage from "../components/productsPage.vue"
 
 export default {
     components: {
-        headerPage, footerPage, aboutPage, cardsPage, contactPage, productsPage
+        headerPage, aboutPage, cardsPage, contactPage, productsPage, footerPage
     }
 }
 </script>

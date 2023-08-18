@@ -11,7 +11,7 @@
 
             </div>
             <div class="col-md-6 p-0 text-center order-1 order-sm-2">
-                <img src="../assets/aboutfot.png" class="w-100" alt="">
+                <img id="aboutPhoto" src="../assets/aboutfot.png" class="w-100 rounded" alt="">
             </div>
 
             <div class="col-md-6 p-0 text-center">
@@ -36,15 +36,15 @@ export default {
 </script>
 
 <style>
-    .container{
-        background-color: #181C32 !important
-    }
+.container {
+    background-color: #181C32 !important
+}
 
-    .container h1{
-        color: white;
-    }
+.container h1 {
+    color: white;
+}
 
-    .container p{
-        color: white !important;
-    }
+.container p {
+    color: white !important;
+}
 </style>
