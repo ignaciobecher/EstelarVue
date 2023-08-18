@@ -23,7 +23,7 @@ export default {
 
 body {
     font-family: 'Oswald', sans-serif;
-
+    background-color: #181C32 !important;
 }
 
 /* #e75f00 naranja principal

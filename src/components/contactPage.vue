@@ -1,9 +1,9 @@
 <template>
-    <div class="container">
-        <div class="row">
+    <div class="container ">
+        <div class="row ">
             <div class="col-12 col-md-8 mx-md-auto mt-5 text-center">
                 <h1 class="mb-4">Contacto</h1>
-                <form class="px-2 px-sm-5 py-5">
+                <form class="px-2 px-sm-5 py-5 rounded">
                     <div class="form-group">
                         <label for="phone">Nombre</label>
                         <input type="text" class="form-control" id="phone" placeholder="Ingrese su nombre">
@@ -19,7 +19,7 @@
                         <input type="text" class="form-control" id="username" placeholder="Ingrese su consulta">
                         <small id="usernameHelp" class="form-text">Ingrese su consulta</small>
                     </div>
-                    <button id="btnForm" class="btn rounded d-block bg-primary mx-auto">Enviar!</button>
+                    <button id="btnForm" class="btn btn-primary btn-lg px-4 border-primary">Enviar!</button>
                 </form>
             </div>
         </div>
@@ -29,7 +29,7 @@
 <style scoped>
 .btn:hover {
     background-color: #f28f0e !important;
-
+    border-color: #f78d03 !important;
 }
 
 form {
