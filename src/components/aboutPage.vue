@@ -15,7 +15,7 @@
             </div>
 
             <div class="col-md-6 p-0 text-center">
-                <img src="../assets/logoConLetras.png" class="w-100" alt="">
+                <img src="../assets/logoSinLetras.png" class="w-75" alt="">
             </div>
             <div class="col-md-6 p-4 p-sm-5">
                 <small class="text-uppercase" style="color: #e85e00;"></small>
@@ -35,3 +35,16 @@ export default {
 }
 </script>
 
+<style>
+    .container{
+        background-color: #181C32 !important
+    }
+
+    .container h1{
+        color: white;
+    }
+
+    .container p{
+        color: white !important;
+    }
+</style>

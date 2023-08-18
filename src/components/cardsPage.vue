@@ -58,6 +58,10 @@ export default {
 </script>
 
 <style scoped>
+.container p{
+    color: black !important;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     padding: 50px;
