@@ -50,7 +50,7 @@ export default {
 
 .footer {
     width: 100%;
-    background-color: #181C32 !important;
+    background-color: #0a0c17 !important;
     color: white;
 }
 
