@@ -25,6 +25,18 @@
                         <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
                             to="/services">Servicios</router-link>
                     </li>
+                    <!-- <li class="nav-item">
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
+                            to="/services">Marketing </router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
+                            to="/services">Páginas web</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
+                            to="/services">Fotografia</router-link>
+                    </li> -->
                 </ul>
             </div>
         </div>
