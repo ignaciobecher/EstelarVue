@@ -25,10 +25,11 @@
                         <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
                             to="/services">Servicios</router-link>
                     </li>
-                    <!-- <li class="nav-item">
-                        <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
-                            to="/services">Marketing </router-link>
+                    <li class="nav-item">
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/photography' }"
+                            to="/photography">Fotografía </router-link>
                     </li>
+                    <!--
                     <li class="nav-item">
                         <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
                             to="/services">Páginas web</router-link>
@@ -75,6 +76,8 @@ export default {
     max-width: 100px;
     /* Adjust the size of the logo */
 }
+
+
 
 @media (max-width: 768px) {
     .navbar-nav {
