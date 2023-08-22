@@ -20,27 +20,67 @@
             </div>
         </div>
     </div>
-    <productsPage></productsPage>
+
+
+    <section class="bg-dark py-5">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div>
+                            <h1 class="text-white fw-bold display-5">Conseguí que tu negocio crezca con fotografía de primer
+                                nivel a cargo de nuestro equipo de fotógrafos y editores profesionales.</h1>
+                        </div>
+                        <img src="../assets/Photography/Carpa.jpg" class="img-fluid rounded shadow my-5 first-img">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column">
+                            <img src="../assets/Photography/FotoBar.jpg" class="img-fluid rounded shadow mb-5">
+                            <img src="../assets/Photography/FotoComida2.jpg" class="img-fluid rounded shadow mb-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white position-absolute bottom-0 h-25 bottom-0 left-0 right-0 z-2 py-5"></div>
+    </section>
+
+
+
     <footerPage></footerPage>
 </template>
 
 <script>
-import productsPage from "@/components/productsPage.vue";
+
 import footerPage from "../components/footerPage.vue"
+
 export default {
     components: {
         footerPage,
-        productsPage
+
     }
 }
 </script>
 
 <style scoped>
+body {
+    background-color: #181C32 !important;
+}
+
+section {
+    background-color: #181C32 !important;
+}
+
 span {
-    color: #f28f0e !important;
+    color: #fecb4c !important;
 }
 
 .display-3 {
     color: #f28f0e;
+}
+
+.small-image {
+    max-width: 50%;
+    height: auto;
 }
 </style>

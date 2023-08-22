@@ -29,11 +29,12 @@
                         <router-link class="nav-link" :class="{ 'active': $route.path === '/photography' }"
                             to="/photography">Fotografía </router-link>
                     </li>
-                    <!--
+
                     <li class="nav-item">
-                        <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
-                            to="/services">Páginas web</router-link>
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/development' }"
+                            to="/development">Páginas web</router-link>
                     </li>
+                    <!--
                     <li class="nav-item">
                         <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
                             to="/services">Fotografia</router-link>
