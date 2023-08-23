@@ -86,4 +86,13 @@ span {
     max-width: 50%;
     height: auto;
 }
+
+.col-md-6 img {
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.col-md-6 img:hover {
+    transform: scale(1.1);
+    filter: brightness(90%);
+}
 </style>

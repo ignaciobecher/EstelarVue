@@ -34,11 +34,11 @@
                         <router-link class="nav-link" :class="{ 'active': $route.path === '/development' }"
                             to="/development">Páginas web</router-link>
                     </li>
-                    <!--
+
                     <li class="nav-item">
-                        <router-link class="nav-link" :class="{ 'active': $route.path === '/services' }"
-                            to="/services">Fotografia</router-link>
-                    </li> -->
+                        <router-link class="nav-link" :class="{ 'active': $route.path === '/marketing' }"
+                            to="/marketing">Marketing</router-link>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -33,19 +33,18 @@
 
 
     <div class="introduction">
-        <h1>Portolio</h1>
+
     </div>
     <div class="container">
         <div class="row">
 
             <article class="col-md-4 col-lg-3">
                 <div class="card-content">
-                    <a class="spectrum-a" href="http://uj.ac.za"><img class="spectrum1" src="../assets/Programming/2.jpg"
-                            alt="meow">
-                        <h4 class="spectrum-h2">Páginas personalizadas</h4>
-                        <p>Creamos tu web para que <span>muestres</span> tu negocio al mundo o <span>vendas</span> a traves
-                            de internet</p>
-                    </a>
+                    <img class="spectrum1" src="../assets/Programming/2.jpg" alt="meow">
+                    <h4 class="spectrum-h2">Páginas personalizadas</h4>
+                    <p>Creamos tu web para que <span>muestres</span> tu negocio al mundo o <span>vendas</span> a traves
+                        de internet</p>
+
                 </div>
                 <!-- .card-content -->
             </article>
@@ -53,22 +52,11 @@
 
             <article class="col-md-4 col-lg-3">
                 <div class="card-content">
-                    <a href="http://uj.ac.za"><img class="spectrum1" src="../assets/Programming/1.jpg" alt="meow">
-                        <h4 class="spectrum-h2">Aplicaciones de telefono</h4>
-                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
-                    </a>
-                </div>
-                <!-- .card-content -->
+                    <img class="spectrum1" src="../assets/Programming/1.jpg" alt="meow">
+                    <h4 class="spectrum-h2">Aplicaciones de telefono</h4>
+                    <p>Desarrollamos aplicaciones para que utilices en tu día a día, para agilizar tareas o lo que se te
+                        ocurra, nosotros lo creamos.</p>
 
-            </article>
-            <!-- .card -->
-
-            <article class="col-md-4 col-lg-3">
-                <div class="card-content">
-                    <a href="http://uj.ac.za"><img class="spectrum1" src="../assets/Programming/3.jpg" alt="meow">
-                        <h4 class="spectrum-h2">Programas de computadora</h4>
-                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
-                    </a>
                 </div>
                 <!-- .card-content -->
 
@@ -77,10 +65,25 @@
 
             <article class="col-md-4 col-lg-3">
                 <div class="card-content">
-                    <a href="http://uj.ac.za"><img class="spectrum1" src="../assets/Programming/4.jpg" alt="meow">
-                        <h4 class="spectrum-h2">Diseño gráfico</h4>
-                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
-                    </a>
+                    <img class="spectrum1" src="../assets/Programming/3.jpg" alt="meow">
+                    <h4 class="spectrum-h2">Programas de gestión</h4>
+                    <p>Te brindamos software de gestion de negocios personalizado para tus necesidades, para automatizar
+                        tus
+                        tareas.</p>
+
+                </div>
+                <!-- .card-content -->
+
+            </article>
+            <!-- .card -->
+
+            <article class="col-md-4 col-lg-3">
+                <div class="card-content">
+                    <img class="spectrum1" src="../assets/Programming/4.jpg" alt="meow">
+                    <h4 class="spectrum-h2">Diseño gráfico</h4>
+                    <p>Somos especialistas en diseño gráfico, te otorgamos herramientas gráficas para la estética
+                        digital de tu empresa.</p>
+
                 </div>
                 <!-- .card-content -->
 

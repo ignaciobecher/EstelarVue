@@ -1,6 +1,8 @@
 
 import { createRouter, createWebHistory } from "vue-router";
 
+
+import marketingView from "../views/MarketingView.vue"
 import programmingView from "../views/ProgrammingView.vue"
 import photographyView from "../views/PhotographyView.vue"
 import servicesView from '../views/ServicesView.vue';
@@ -15,7 +17,9 @@ const routes = [
   {path:"/contact",component:contactView},
   {path:"/services",component:servicesView},
   {path:"/photography", component:photographyView},
-  {path:"/development",component:programmingView}
+  {path:"/development",component:programmingView},
+  {path:"/marketing",component:marketingView}
+
 ];
 
 const router = createRouter({
