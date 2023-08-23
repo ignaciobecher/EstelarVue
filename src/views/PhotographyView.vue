@@ -31,14 +31,14 @@
                             <h1 class="text-white fw-bold display-5">Conseguí que tu negocio crezca con fotografía de primer
                                 nivel a cargo de nuestro equipo de fotógrafos y editores profesionales.</h1>
                         </div>
-                        <img src="../assets/Photography/Carpa.jpg" class="img-fluid rounded shadow my-5 first-img"
+                        <img src="../assets/Photography/Carpa-min.jpg" class="img-fluid rounded shadow my-5 first-img"
                             loading="lazy">
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex flex-column">
-                            <img src="../assets/Photography/FotoBar.jpg" class="img-fluid rounded shadow mb-5"
+                            <img src="../assets/Photography/FotoBar-min.jpg" class="img-fluid rounded shadow mb-5"
                                 loading="lazy">
-                            <img src="../assets/Photography/FotoComida2.jpg" class="img-fluid rounded shadow mb-5"
+                            <img src="../assets/Photography/FotoComida2-min.jpg" class="img-fluid rounded shadow mb-5"
                                 loading="lazy">
                         </div>
                     </div>
@@ -85,4 +85,5 @@ span {
 .small-image {
     max-width: 50%;
     height: auto;
-}</style>
+}
+</style>
