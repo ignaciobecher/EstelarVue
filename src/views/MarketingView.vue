@@ -3,7 +3,7 @@
         <div class="row mb-5">
             <div class="col-md-6 align-self-center">
                 <div class="lc-block">
-                    <img class="img-fluid mx-auto d-block" src="https://cdn.livecanvas.com/media/svg/undraw/analytics.svg"
+                    <img class="img-fluid mx-auto d-block" src="../assets/Marketing/1-removebg-preview.png"
                         style="height:30vh">
                 </div><!-- /lc-block -->
             </div><!-- /col -->
@@ -11,7 +11,7 @@
                 <div class="lc-block">
                     <div editable="rich">
 
-                        <h2>The quick brown fox jumps over the lazy dog</h2>
+                        <h2>Marketing para tu negocio</h2>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam
                             metus, lobortis non augue at, placerat viverra risus. Cras ornare faucibus laoreet.&nbsp;</p>
@@ -25,57 +25,60 @@
         <div class="row mt-4">
             <div class="col-md-3 col-sm-6">
                 <div class="lc-block">
-                    <img class="img-fluid mx-auto d-block mb-2"
-                        src="https://cdn.livecanvas.com/media/svg/undraw/tweetstorm.svg" style="height:10vh">
+                    <img class="img-fluid mx-auto d-block mb-2" src="../assets/Marketing/6-removebg-preview.png"
+                        style="height:10vh">
                 </div><!-- /lc-block -->
                 <div class="lc-block text-center">
                     <div editable="rich">
 
-                        <h4>The quick brown</h4>
+                        <h4>Marketing digital</h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;</p>
+                        <p>El marketing digital se compone de toda la publicidad en medios digitales, nosotros nos
+                            encargamos de que te negocio se haga fuerte en el mercado digital.&nbsp;</p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
             <div class="col-md-3 col-sm-6">
                 <div class="lc-block">
-                    <img class="img-fluid mx-auto d-block mb-2"
-                        src="https://cdn.livecanvas.com/media/svg/undraw/playful-cat.svg" style="height:10vh">
+                    <img class="img-fluid mx-auto d-block mb-2" src="../assets/Marketing/5-removebg-preview.png"
+                        style="height:10vh">
                 </div><!-- /lc-block -->
                 <div class="lc-block text-center">
                     <div editable="rich">
 
-                        <h4>The quick brown</h4>
+                        <h4>Marketing de redes</h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;</p>
+                        <p>¿No tenes tiempo para manejar las redes de tu negocio? No te preocupes, nosotros lo hacemos por
+                            vos.&nbsp;</p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
             <div class="col-md-3 col-sm-6">
                 <div class="lc-block">
-                    <img class="img-fluid mx-auto d-block mb-2"
-                        src="https://cdn.livecanvas.com/media/svg/undraw/broadcast.svg" style="height:10vh">
+                    <img class="img-fluid mx-auto d-block mb-2" src="../assets/Marketing/10-removebg-preview.png"
+                        style="height:10vh">
                 </div><!-- /lc-block -->
                 <div class="lc-block text-center">
                     <div editable="rich">
 
-                        <h4>The quick brown</h4>
+                        <h4>Publicidad vehicular</h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;</p>
+                        <p>Contamos con vehiculos ultimo modelo con publicidad de audio y video incorporado de primer
+                            nivel.&nbsp;</p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
             <div class="col-md-3 col-sm-6">
                 <div class="lc-block">
-                    <img class="img-fluid mx-auto d-block mb-2"
-                        src="https://cdn.livecanvas.com/media/svg/undraw/android.svg" style="height:10vh">
+                    <img class="img-fluid mx-auto d-block mb-2" src="../assets/Marketing/4-removebg-preview.png"
+                        style="height:10vh">
                 </div><!-- /lc-block -->
                 <div class="lc-block text-center">
                     <div editable="rich">
 
-                        <h4>The quick brown</h4>
+                        <h4>Publicidad radial</h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;</p>
+                        <p>Te brindamos la posibilidad de publicitar en radios con las cuales estamos asociados.&nbsp;</p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
@@ -94,3 +97,21 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.col-md-6 h2 {
+    color: #e75f00 !important;
+}
+
+.col-md-3 h4 {
+    color: #e75f00 !important;
+}
+
+.col-md-3 {
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.col-md-3:hover {
+    transform: scale(1.1);
+}
+</style>
