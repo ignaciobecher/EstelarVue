@@ -1,90 +1,101 @@
 <template>
-    <div class="py-14 ">
-        <div class="container">
-            <div class="row">
-                <div class="offset-lg-2 col-lg-8 col-md-12 col-12 text-center">
-                    <span class="fs-4 text-warning ls-md text-uppercase fw-semibold">Aprovecha la tecnologia para tu negocio
-                    </span>
-                    <!-- heading  -->
-                    <h2 class="display-3 mt-4 mb-3  fw-bold">Páginas web para negocios</h2>
-                    <!-- para  -->
-                    <p class="lead  px-lg-8 mb-6">Realizamos <span>páginas web y programas</span> para negocios que buscan
-                        expandir su público y aumentar ganancias, dandoles la posibilidad de incorporarse a la era digital.
-                    </p>
-                    <router-link class="nav-link" to="/contact"><a href="#"
-                            class="btn btn-primary">Contacto</a></router-link>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container service">
-
-        <h1 class="white-text">¿Que ofrecemos?</h1>
-
+    <div class="container my-5" id="abouttextstyle">
         <div class="row">
-            <div class="col s12 m6 l3 center-align">
-                <div class="card">
-                    <div class="card-content">
-                        <i class="bi bi-code-slash "></i>
-                        <h5>Páginas web</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
+            <div class="col-md-6 p-4 p-sm-5 order-2 order-sm-1">
+                <small class="text-uppercase" style="color: #9B5DE5;"></small>
+                <h1 class="h2 mb-4" style="font-weight: 600;">Programas de todo tipo para tu <span
+                        style="color: #e75f00;">negocio</span>
+                </h1>
+                <p class="text-secondary" style="line-height: 2;">En estelar desarrollamos nuestros programas con la
+                    tecnología actual, implementando soluciones <br> de calidad y con parametros de ultima generación.
+                </p>
 
-                </div>
+            </div>
+            <div class="col-md-6 p-0 text-center order-1 order-sm-2">
+                <img src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    class="w-100" alt="">
             </div>
 
-            <div class="col s12 m6 l3 center-align">
-                <div class="card">
-                    <div class="card-content">
-                        <i class="bi bi-phone"></i>
-                        <h5>Aplicaciones de celular</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-
-                    </div>
-
-                </div>
+            <div class="col-md-6 p-0 text-center">
+                <img src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    class="w-100" alt="">
             </div>
+            <div class="col-md-6 p-4 p-sm-5">
+                <small class="text-uppercase" style="color: #9B5DE5;"></small>
+                <h1 class="h2 mb-4" style="font-weight: 600;">Desarrollamos tu<span style="color:#e75f00;">página web</span>
+                </h1>
+                <p class="text-secondary" style="line-height: 2;">Nos encargamos de la creación de la página web para tu
+                    negocio, vos preocupate solo por vender.</p>
 
-            <div class="col s12 m6 l3 center-align">
-                <div class="card">
-                    <div class="card-content">
-                        <i class="bi bi-search"></i>
-                        <h5>SEO</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col s12 m6 l3 center-align">
-                <div class="card">
-                    <div class="card-content">
-                        <i class="bi bi-pc-display-horizontal"></i>
-                        <h5>Programas de gestion</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-
-                </div>
             </div>
         </div>
     </div>
 
 
 
+    <div class="introduction">
+        <h1>Portolio</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <article class="col-md-4 col-lg-3">
+                <div class="card-content">
+                    <a class="spectrum-a" href="http://uj.ac.za"><img class="spectrum1"
+                            src="https://image.freepik.com/free-vector/science-elements-with-test-tubes-and-molecules_23-2147491185.jpg"
+                            alt="meow">
+                        <h4 class="spectrum-h2">Spectrum</h4>
+                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
+                    </a>
+                </div>
+                <!-- .card-content -->
+            </article>
+            <!-- .card -->
+
+            <article class="col-md-4 col-lg-3">
+                <div class="card-content">
+                    <a href="http://uj.ac.za"><img class="spectrum1"
+                            src="https://image.freepik.com/free-vector/science-elements-with-test-tubes-and-molecules_23-2147491185.jpg"
+                            alt="meow">
+                        <h4 class="spectrum-h2">Study With Us</h4>
+                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
+                    </a>
+                </div>
+                <!-- .card-content -->
+
+            </article>
+            <!-- .card -->
+
+            <article class="col-md-4 col-lg-3">
+                <div class="card-content">
+                    <a href="http://uj.ac.za"><img class="spectrum1"
+                            src="https://image.freepik.com/free-vector/science-elements-with-test-tubes-and-molecules_23-2147491185.jpg"
+                            alt="meow">
+                        <h4 class="spectrum-h2">Soweto Science Centre</h4>
+                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
+                    </a>
+                </div>
+                <!-- .card-content -->
+
+            </article>
+            <!-- .card -->
+
+            <article class="col-md-4 col-lg-3">
+                <div class="card-content">
+                    <a href="http://uj.ac.za"><img class="spectrum1"
+                            src="https://image.freepik.com/free-vector/science-elements-with-test-tubes-and-molecules_23-2147491185.jpg"
+                            alt="meow">
+                        <h4 class="spectrum-h2">Upcoming events</h4>
+                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
+                    </a>
+                </div>
+                <!-- .card-content -->
+
+            </article>
+            <!-- .card -->
+
+        </div>
+    </div>
 
     <footerPage></footerPage>
 </template>
@@ -99,48 +110,51 @@ export default {
 </script>
 
 <style scoped>
-span {
-    color: #fecb4c !important;
+div.introduction {
+    padding: 1em;
+    background: #181C32;
+
 }
 
-.display-3 {
-    color: #f28f0e;
+p.site-title {
+    color: #000000;
 }
 
-.card i {
-    font-size: 2em !important;
-    color: white;
+article.col-md-4 col-lg-3 {
+    background: #f5f5f5;
+    margin-top: 1em;
+    margin-bottom: 2em;
+
 }
 
+div.card-content {
+    background: #f5f5f5;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
 
-body {
-    background: #181C32 !important;
 }
 
-.card {
-    transition: 0.5s;
-    background: #131625;
+div.card-content h3 {
+    margin-bottom: 0.5em;
+    font-weight: normal;
 }
 
-.card h5 {
-    padding: 10px 0px;
-    color: white;
+div.card-content p {
+    font-size: 95%;
 }
 
-.card p {
-    color: white;
+img.spectrum1 {
+    width: 100%;
+    height: auto;
 }
 
-.card:hover i {
-    color: #e85e00;
+div a,
+a:hover {
+    text-decoration: none;
 }
 
-.card:hover h5 {
-    color: #f28f0e
-}
-
-.service .card:hover {
-    transform: scale(1.03);
-
+div a:hover {
+    opacity: 0.8;
 }
 </style>
