@@ -12,17 +12,16 @@
 
             </div>
             <div class="col-md-6 p-0 text-center order-1 order-sm-2">
-                <img src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    class="w-100" alt="">
+                <img src="../assets/Programming/gestion.png" class="w-75 rounded" alt="">
             </div>
 
             <div class="col-md-6 p-0 text-center">
-                <img src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    class="w-100" alt="">
+                <img src="../assets/Programming/web.png" class="w-75 rounded" alt="">
             </div>
             <div class="col-md-6 p-4 p-sm-5">
                 <small class="text-uppercase" style="color: #9B5DE5;"></small>
-                <h1 class="h2 mb-4" style="font-weight: 600;">Desarrollamos tu<span style="color:#e75f00;">página web</span>
+                <h1 class="h2 mb-4" style="font-weight: 600;">Desarrollamos tu <span style="color:#e75f00;">página
+                        web</span>
                 </h1>
                 <p class="text-secondary" style="line-height: 2;">Nos encargamos de la creación de la página web para tu
                     negocio, vos preocupate solo por vender.</p>
@@ -41,11 +40,11 @@
 
             <article class="col-md-4 col-lg-3">
                 <div class="card-content">
-                    <a class="spectrum-a" href="http://uj.ac.za"><img class="spectrum1"
-                            src="https://image.freepik.com/free-vector/science-elements-with-test-tubes-and-molecules_23-2147491185.jpg"
+                    <a class="spectrum-a" href="http://uj.ac.za"><img class="spectrum1" src="../assets/Programming/2.jpg"
                             alt="meow">
-                        <h4 class="spectrum-h2">Spectrum</h4>
-                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
+                        <h4 class="spectrum-h2">Páginas personalizadas</h4>
+                        <p>Creamos tu web para que <span>muestres</span> tu negocio al mundo o <span>vendas</span> a traves
+                            de internet</p>
                     </a>
                 </div>
                 <!-- .card-content -->
@@ -54,24 +53,8 @@
 
             <article class="col-md-4 col-lg-3">
                 <div class="card-content">
-                    <a href="http://uj.ac.za"><img class="spectrum1"
-                            src="https://image.freepik.com/free-vector/science-elements-with-test-tubes-and-molecules_23-2147491185.jpg"
-                            alt="meow">
-                        <h4 class="spectrum-h2">Study With Us</h4>
-                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
-                    </a>
-                </div>
-                <!-- .card-content -->
-
-            </article>
-            <!-- .card -->
-
-            <article class="col-md-4 col-lg-3">
-                <div class="card-content">
-                    <a href="http://uj.ac.za"><img class="spectrum1"
-                            src="https://image.freepik.com/free-vector/science-elements-with-test-tubes-and-molecules_23-2147491185.jpg"
-                            alt="meow">
-                        <h4 class="spectrum-h2">Soweto Science Centre</h4>
+                    <a href="http://uj.ac.za"><img class="spectrum1" src="../assets/Programming/1.jpg" alt="meow">
+                        <h4 class="spectrum-h2">Aplicaciones de telefono</h4>
                         <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
                     </a>
                 </div>
@@ -82,10 +65,20 @@
 
             <article class="col-md-4 col-lg-3">
                 <div class="card-content">
-                    <a href="http://uj.ac.za"><img class="spectrum1"
-                            src="https://image.freepik.com/free-vector/science-elements-with-test-tubes-and-molecules_23-2147491185.jpg"
-                            alt="meow">
-                        <h4 class="spectrum-h2">Upcoming events</h4>
+                    <a href="http://uj.ac.za"><img class="spectrum1" src="../assets/Programming/3.jpg" alt="meow">
+                        <h4 class="spectrum-h2">Programas de computadora</h4>
+                        <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
+                    </a>
+                </div>
+                <!-- .card-content -->
+
+            </article>
+            <!-- .card -->
+
+            <article class="col-md-4 col-lg-3">
+                <div class="card-content">
+                    <a href="http://uj.ac.za"><img class="spectrum1" src="../assets/Programming/4.jpg" alt="meow">
+                        <h4 class="spectrum-h2">Diseño gráfico</h4>
                         <p>Visit our world-class analytical facility for South African scientists, Spectrum</p>
                     </a>
                 </div>
@@ -138,15 +131,37 @@ div.card-content {
 div.card-content h3 {
     margin-bottom: 0.5em;
     font-weight: normal;
+
 }
 
 div.card-content p {
     font-size: 95%;
+    color: white;
+}
+
+.card-content h4 {
+    color: #e75f00 !important;
+}
+
+.card-content {
+    transition: transform 0.3s, filter 0.3s;
+    background-color: #0a0c17 !important;
+    border-radius: 7px;
+}
+
+.card-content span {
+    color: #e75f00;
+}
+
+.card-content:hover {
+    transform: scale(1.1);
+    filter: brightness(90%);
 }
 
 img.spectrum1 {
     width: 100%;
     height: auto;
+
 }
 
 div a,
