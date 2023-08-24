@@ -48,6 +48,42 @@
         <div class="bg-white position-absolute bottom-0 h-25 bottom-0 left-0 right-0 z-2 py-5"></div>
     </section>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Galería de imágenes</h1>
+            </div>
+        </div>
+
+        <div class="row mb-1">
+            <div class="col-md-3">
+                <img src="../assets/Photography/planta.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-3">
+                <img src="../assets/Photography/campo.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-3">
+                <img src="../assets/Photography/casa.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-3">
+                <img src="../assets/Photography/zapatilla.jpg" class="img-fluid rounded">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 ">
+                <img src="../assets/Photography/carpa7.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-3">
+                <img src="../assets/Photography/hotel21.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-3">
+                <img src="../assets/Photography/playa.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-3">
+                <img src="../assets/Photography/hotel.jpg" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
 
 
     <footerPage></footerPage>
