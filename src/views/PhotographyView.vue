@@ -48,63 +48,23 @@
         <div class="bg-white position-absolute bottom-0 h-25 bottom-0 left-0 right-0 z-2 py-5"></div>
     </section>
 
-    <p class="heading">CSS Gallery</p>
-    <div class="gallery-image">
-        <div class="img-box">
-            <img src="../assets/Photography/vino.jpg" alt="" />
-            <div class="transparent-box">
 
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="../assets/Photography/cocacola.jpg" alt="" />
-            <div class="transparent-box">
+    <div class="image-gallery-div">
+        <div class="image-gallery">
+            <img class="rounded" src="../assets/Photography/_P0A1713.jpg" alt="Imagen 1">
+            <img class="rounded" src="../assets/Photography/casa.jpg" alt="Imagen 2">
+            <img class="rounded" src="../assets/Photography/_P0A1835.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/_P0A1832b.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/_P0A1522.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0006.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0024.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0021.jpg" alt="Imagen 3">
 
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="../assets/Photography/hotel.jpg" alt="" />
-            <div class="transparent-box">
-
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="../assets/Photography/casa.jpg" alt="" />
-            <div class="transparent-box">
-
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="../assets/Photography/cafe.jpg" alt="" />
-            <div class="transparent-box">
-
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="../assets/Photography/playa.jpg" alt="" />
-            <div class="transparent-box">
-
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="../assets/Photography/evento.jpg" alt="" />
-            <div class="transparent-box">
-
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="../assets/Photography/evento2.jpg" alt="" />
-            <div class="transparent-box">
-
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="../assets/Photography/whisky.jpg" alt="" />
-            <div class="transparent-box">
-
-            </div>
+            <!-- Agrega más imágenes aquí -->
         </div>
     </div>
+
+
 
     <footerPage></footerPage>
 </template>
@@ -152,80 +112,40 @@ span {
     filter: brightness(90%);
 }
 
-.heading {
-    text-align: center;
-    font-size: 2.0em;
-    letter-spacing: 1px;
-    padding: 40px;
-    color: white;
-}
 
-.gallery-image {
-    padding: 20px;
+.image-gallery-div {
+    margin: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
 }
 
-.gallery-image img {
-    height: 250px;
-    width: 350px;
-    transform: scale(1.0);
-    transition: transform 0.4s ease;
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.img-box {
-    box-sizing: content-box;
-    margin: 10px;
-    height: 250px;
-    width: 350px;
-    overflow: hidden;
-    display: inline-block;
-    color: white;
-    position: relative;
-    background-color: white;
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
 }
 
-.caption {
-    position: absolute;
-    bottom: 5px;
-    left: 20px;
-    opacity: 0.0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+.image-gallery img:hover {
+    transform: scale(1.3);
 }
 
-.transparent-box {
-    height: 250px;
-    width: 350px;
-    background-color: rgba(0, 0, 0, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: background-color 0.3s ease;
-}
-
-.img-box:hover img {
-    transform: scale(1.1);
-}
-
-.img-box:hover .transparent-box {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.img-box:hover .caption {
-    transform: translateY(-20px);
-    opacity: 1.0;
-}
-
-.img-box:hover {
-    cursor: pointer;
-}
-
-.caption>p:nth-child(2) {
-    font-size: 0.8em;
-}
-
-.opacity-low {
-    opacity: 0.5;
+@media (max-width: 768px) {
+    .image-gallery {
+        grid-template-columns: repeat(1, 1fr);
+        /* Cambio a una sola columna */
+        padding: 10px;
+    }
 }
 </style>
