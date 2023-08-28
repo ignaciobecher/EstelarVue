@@ -48,43 +48,63 @@
         <div class="bg-white position-absolute bottom-0 h-25 bottom-0 left-0 right-0 z-2 py-5"></div>
     </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Galería de imágenes</h1>
-            </div>
-        </div>
+    <p class="heading">CSS Gallery</p>
+    <div class="gallery-image">
+        <div class="img-box">
+            <img src="../assets/Photography/vino.jpg" alt="" />
+            <div class="transparent-box">
 
-        <div class="row mb-1">
-            <div class="col-md-3">
-                <img src="../assets/Photography/planta.jpg" class="img-fluid rounded">
-            </div>
-            <div class="col-md-3">
-                <img src="../assets/Photography/campo.jpg" class="img-fluid rounded">
-            </div>
-            <div class="col-md-3">
-                <img src="../assets/Photography/casa.jpg" class="img-fluid rounded">
-            </div>
-            <div class="col-md-3">
-                <img src="../assets/Photography/zapatilla.jpg" class="img-fluid rounded">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3 ">
-                <img src="../assets/Photography/carpa7.jpg" class="img-fluid rounded">
+        <div class="img-box">
+            <img src="../assets/Photography/cocacola.jpg" alt="" />
+            <div class="transparent-box">
+
             </div>
-            <div class="col-md-3">
-                <img src="../assets/Photography/hotel21.jpg" class="img-fluid rounded">
+        </div>
+        <div class="img-box">
+            <img src="../assets/Photography/hotel.jpg" alt="" />
+            <div class="transparent-box">
+
             </div>
-            <div class="col-md-3">
-                <img src="../assets/Photography/playa.jpg" class="img-fluid rounded">
+        </div>
+        <div class="img-box">
+            <img src="../assets/Photography/casa.jpg" alt="" />
+            <div class="transparent-box">
+
             </div>
-            <div class="col-md-3">
-                <img src="../assets/Photography/hotel.jpg" class="img-fluid rounded">
+        </div>
+        <div class="img-box">
+            <img src="../assets/Photography/cafe.jpg" alt="" />
+            <div class="transparent-box">
+
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../assets/Photography/playa.jpg" alt="" />
+            <div class="transparent-box">
+
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../assets/Photography/evento.jpg" alt="" />
+            <div class="transparent-box">
+
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../assets/Photography/evento2.jpg" alt="" />
+            <div class="transparent-box">
+
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="../assets/Photography/whisky.jpg" alt="" />
+            <div class="transparent-box">
+
             </div>
         </div>
     </div>
-
 
     <footerPage></footerPage>
 </template>
@@ -130,5 +150,82 @@ span {
 .col-md-6 img:hover {
     transform: scale(1.1);
     filter: brightness(90%);
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: white;
+}
+
+.gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image img {
+    height: 250px;
+    width: 350px;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+}
+
+.img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+}
+
+.img-box:hover img {
+    transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+}
+
+.img-box:hover {
+    cursor: pointer;
+}
+
+.caption>p:nth-child(2) {
+    font-size: 0.8em;
+}
+
+.opacity-low {
+    opacity: 0.5;
 }
 </style>

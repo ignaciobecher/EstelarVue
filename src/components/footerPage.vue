@@ -11,15 +11,23 @@
                         </li>
                         <li>
                             <a href="#">
-                                <i class="bi bi-people">
-                                </i> Nosotros
+                                <router-link class="nav-link" to="/about">
+                                    <i class="bi bi-people">
+                                    </i> Nosotros
+                                </router-link>
                             </a>
                         </li>
-                        <li><a href="#"><i class="bi bi-tools"></i> Servicios</a></li>
                         <li>
                             <a href="#">
-                                <router-link class="nav-link" :class="{ 'active': $route.path === '/contact' }"
-                                    to="/contact"><i class="bi bi-phone"></i> Contacto</router-link>
+                                <router-link class="nav-link" to="/services">
+                                    <i class="bi bi-tools"></i> Servicios
+                                </router-link>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <router-link class="nav-link" to="/contact"><i class="bi bi-phone"></i>
+                                    Contacto</router-link>
                             </a>
                         </li>
                     </ul>
