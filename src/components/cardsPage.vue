@@ -4,24 +4,25 @@
             <div class="col-md-4 animate__animated " ref="animatedElement1">
                 <div class="card card-1">
                     <h3>Marketing</h3>
-                    <p>Ofrecemos desde manejo de redes y ganancia de seguidores, hasta
-                        publicidad en
+                    <p>Ofrecemos manejo de redes sociales para el crecimiento de seguidores, así como publicidad en
                         <span style="color: #e85e00">vehiculo y radio </span>
                     </p>
                 </div>
             </div>
             <div class="col-md-4 animate__animated " ref="animatedElement2">
                 <div class="card card-2">
-                    <h3>Fotografia</h3>
-                    <p>En Estelar te brindamos <span style="color: #e85e00">fotografia</span> completa y de calidad, <span
-                            style="color: #e85e00">filmacion</span> con actores y postproduccion.</p>
+                    <h3>Fotografía</h3>
+                    <p>
+                        En Estelar te brindamos <span style="color: #e85e00">fotografía</span> integral y profesional, así
+                        como <span style="color: #e85e00">filmación</span> publicitaria y de videos corporativos.
+                    </p>
                 </div>
             </div>
             <div class="col-md-4 animate__animated " ref="animatedElement3">
                 <div class="card card-3 ">
-                    <h3>Programacion</h3>
-                    <p>Ayudamos a tu negocio con el software, desde <span style="color: #e85e00">paginas web</span> hasta
-                        <span style="color: #e85e00">aplicaciones</span> moviles o programas de gestion.
+                    <h3>Programación</h3>
+                    <p>Ayudamos a tu negocio con soluciones digitales, desde <span style="color: #e85e00">páginas web</span>
+                        hasta aplicaciones y <span style="color: #e85e00">programas</span> de gestión.
                     </p>
                 </div>
             </div>
@@ -58,7 +59,7 @@ export default {
 </script>
 
 <style scoped>
-.container p{
+.container p {
     color: black !important;
 }
 

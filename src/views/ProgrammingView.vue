@@ -6,8 +6,8 @@
                 <h1 class="h2 mb-4" style="font-weight: 600;">Programas de todo tipo para tu <span
                         style="color: #e75f00;">negocio</span>
                 </h1>
-                <p class="text-secondary" style="line-height: 2;">En estelar desarrollamos nuestros programas con la
-                    tecnología actual, implementando soluciones <br> de calidad y con parametros de ultima generación.
+                <p class="text-secondary" style="line-height: 2;">En Estelar, desarrollamos nuestros programas con la
+                    tecnología actual, implementando soluciones de calidad y siguiendo parámetros de última generación.
                 </p>
 
             </div>
@@ -23,8 +23,8 @@
                 <h1 class="h2 mb-4" style="font-weight: 600;">Desarrollamos tu <span style="color:#e75f00;">página
                         web</span>
                 </h1>
-                <p class="text-secondary" style="line-height: 2;">Nos encargamos de la creación de la página web para tu
-                    negocio, vos preocupate solo por vender.</p>
+                <p class="text-secondary" style="line-height: 2;">Nos encargamos de crear la página web para tu negocio; vos
+                    solo preocúpate por vender.</p>
 
             </div>
         </div>
@@ -42,9 +42,9 @@
                 <div class="card-content">
                     <img class="spectrum1" src="../assets/Programming/2.jpg" alt="meow">
                     <h4 class="spectrum-h2">Páginas personalizadas</h4>
-                    <p>Creamos tu web para que <span>muestres</span> tu negocio al mundo o <span>vendas</span> a traves
-                        de internet</p>
-
+                    <p>Creamos tu sitio web para que <span>expongas</span> tu negocio al mundo o <span>vendas</span> a
+                        través
+                        de Internet.</p>
                 </div>
                 <!-- .card-content -->
             </article>
@@ -53,10 +53,9 @@
             <article class="col-md-4 col-lg-3">
                 <div class="card-content">
                     <img class="spectrum1" src="../assets/Programming/1.jpg" alt="meow">
-                    <h4 class="spectrum-h2">Aplicaciones de telefono</h4>
-                    <p>Desarrollamos aplicaciones para que utilices en tu día a día, para agilizar tareas o lo que se te
-                        ocurra, nosotros lo creamos.</p>
-
+                    <h4 class="spectrum-h2">Aplicaciones de teléfono</h4>
+                    <p>Desarrollamos aplicaciones para que las utilices en tu día a día, agilizando tareas o cualquier otra
+                        idea que se te ocurra; nosotros la creamos.</p>
                 </div>
                 <!-- .card-content -->
 
@@ -67,10 +66,8 @@
                 <div class="card-content">
                     <img class="spectrum1" src="../assets/Programming/3.jpg" alt="meow">
                     <h4 class="spectrum-h2">Programas de gestión</h4>
-                    <p>Te brindamos software de gestion de negocios personalizado para tus necesidades, para automatizar
-                        tus
-                        tareas.</p>
-
+                    <p>Te ofrecemos software de gestión de negocios personalizado según tus necesidades, para automatizar
+                        tus tareas.</p>
                 </div>
                 <!-- .card-content -->
 
@@ -81,15 +78,10 @@
                 <div class="card-content">
                     <img class="spectrum1" src="../assets/Programming/4.jpg" alt="meow">
                     <h4 class="spectrum-h2">Diseño gráfico</h4>
-                    <p>Somos especialistas en diseño gráfico, te otorgamos herramientas gráficas para la estética
-                        digital de tu empresa.</p>
-
+                    <p>Somos especialistas en diseño gráfico y te proporcionamos herramientas visuales para mejorar la
+                        estética digital de tu empresa.</p>
                 </div>
-                <!-- .card-content -->
-
             </article>
-            <!-- .card -->
-
         </div>
     </div>
 

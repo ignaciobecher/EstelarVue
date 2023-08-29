@@ -13,11 +13,14 @@
 
                         <h2>Marketing para tu negocio</h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam
-                            metus, lobortis non augue at, placerat viverra risus. Cras ornare faucibus laoreet.&nbsp;</p>
-                        <p>Aenean vel nisi in ipsum congue fermentum et ut arcu. Proin leo diam,
-                            vulputate eu tellus ac, mattis cursus nunc. In aliquet erat ac eros congue maximus.&nbsp;</p>
-                        <p><br></p>
+                        <p>
+                            Nuestro equipo altamente capacitado combina creatividad, tecnología y análisis estratégico para
+                            crear soluciones personalizadas que se adapten a las necesidades únicas de tu marca. Si buscas
+                            expandir tu alcance, aumentar la visibilidad de tu negocio y conectarte de manera efectiva con
+                            tu audiencia, estás en el lugar correcto.
+
+
+                        </p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
@@ -33,8 +36,8 @@
 
                         <h4>Marketing digital</h4>
 
-                        <p>El marketing digital se compone de toda la publicidad en medios digitales, nosotros nos
-                            encargamos de que te negocio se haga fuerte en el mercado digital.&nbsp;</p>
+                        <p>El marketing digital abarca toda la publicidad en medios, y nosotros nos especializamos
+                            en fortalecer tu negocio.</p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
@@ -48,8 +51,8 @@
 
                         <h4>Marketing de redes</h4>
 
-                        <p>¿No tenes tiempo para manejar las redes de tu negocio? No te preocupes, nosotros lo hacemos por
-                            vos.&nbsp;</p>
+                        <p>¿Te falta tiempo para gestionar las redes sociales de tu negocio? ¡No te preocupes! Nosotros nos
+                            encargamos de ello por ti.&nbsp;</p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
@@ -63,8 +66,8 @@
 
                         <h4>Publicidad vehicular</h4>
 
-                        <p>Contamos con vehiculos ultimo modelo con publicidad de audio y video incorporado de primer
-                            nivel.&nbsp;</p>
+                        <p>Disponemos de vehículos de última generación con publicidad de audio y video incorporada de alta
+                            calidad.&nbsp;</p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
@@ -78,7 +81,8 @@
 
                         <h4>Publicidad radial</h4>
 
-                        <p>Te brindamos la posibilidad de publicitar en radios con las cuales estamos asociados.&nbsp;</p>
+                        <p>Te ofrecemos la oportunidad de anunciarte en emisoras de radio con las que tenemos
+                            colaboración.</p>
                     </div>
                 </div><!-- /lc-block -->
             </div><!-- /col -->

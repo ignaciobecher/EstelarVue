@@ -12,20 +12,22 @@
                 <div class="col-lg-6 col-xl-5 text-center text-lg-start pt-lg-5 mt-xl-4">
                     <div class="lc-block mb-4">
                         <div editable="rich">
-                            <h1 class="fw-bold display-3">Estelar, soluciones digitales </h1>
+                            <h1 class="fw-bold display-3">Impulsamos Tu Presencia Digital con Soluciones
+                                Innovadoras </h1>
                         </div>
                     </div>
 
-                    <div class="lc-block mb-5">
+                    <!-- <div class="lc-block mb-5">
                         <div editable="rich">
-                            <p class="rfs-8"> En Estelar te ofrecemos servicios completos de<span>marketing</span> , desde
-                                la <span>publicidad</span>
-                                hasta el desarrollo de <span>páginas</span> y <span>fotografía</span>.</p>
+                            <p class="rfs-8">
+                                Estelar: Transformando Ideas en Realidad Digital a través del <span>Marketing</span> , la
+                                <span>fotografía</span> y la <span>programación</span>
+                            </p>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="lc-block mb-6">
-                        <router-link class="btn btn-primary px-4 me-md-2 btn-lg" to="/contact">Contacto</router-link>
+                        <router-link class="btn btn-primary px-4 me-md-2 btn-lg" to="/contact">Digitalizate!</router-link>
                     </div>
 
                     <div class="lc-block">

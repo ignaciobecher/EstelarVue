@@ -2,13 +2,26 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../assets/Estelarfotografia(1).png" class="d-block w-100" alt="...">
+                <a href="">
+                    <router-link to="/photography">
+                        <img src="../assets/Estelarfotografia(1).png" class="d-block mx-auto img-small rounded" alt="...">
+                    </router-link>
+                </a>
+
             </div>
             <div class="carousel-item">
-                <img src="../assets/estelarMarketing.png" class="d-block w-100" alt="...">
+                <a href="">
+                    <router-link to="/marketing">
+                        <img src="../assets/estelarMarketing.png" class="d-block mx-auto img-small rounded" alt="...">
+                    </router-link>
+                </a>
             </div>
             <div class="carousel-item">
-                <img src="../assets/estelarProgramacion.png" class="d-block w-100" alt="...">
+                <a href="">
+                    <router-link to="/development">
+                        <img src="../assets/estelarProgramacion.png" class="d-block mx-auto img-small rounded" alt="...">
+                    </router-link>
+                </a>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -27,3 +40,10 @@ export default {
 
 }
 </script>
+
+<style scoped>
+.img-small {
+    max-width: 80%;
+
+}
+</style>

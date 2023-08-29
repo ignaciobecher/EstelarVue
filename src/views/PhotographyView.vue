@@ -10,10 +10,9 @@
                     <!-- heading  -->
                     <h2 class="display-3 mt-4 mb-3  fw-bold">Producciones Audiovisuales Estelar</h2>
                     <!-- para  -->
-                    <p class="lead  px-lg-8 mb-6">Realizamos <span>producciones audiovisuales</span> de primera calidad y
-                        nivel, nos
-                        encargamos de que tu producto o servicio adquiera profesionalidad a traves de producciones
-                        fotograficas orientadas a elevar tu público.</p>
+                    <p class="lead  px-lg-8 mb-6">Realizamos <span>producciones audiovisuales</span> de alta calidad y
+                        nivel. Nos encargamos de que tu producto o servicio adquiera profesionalidad a través de
+                        producciones fotográficas orientadas a elevar tu público.</p>
                     <router-link class="nav-link" to="/contact"><a href="#"
                             class="btn btn-primary">Contacto</a></router-link>
                 </div>
@@ -28,8 +27,9 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div>
-                            <h1 class="text-white fw-bold display-5">Conseguí que tu negocio crezca con fotografía de primer
-                                nivel a cargo de nuestro equipo de fotógrafos y editores profesionales.</h1>
+                            <h1 class="text-white fw-bold display-5">Impulsa el crecimiento de tu negocio con
+                                <span>fotografía</span> de
+                                primer nivel, a cargo de nuestro equipo de fotógrafos y editores profesionales.</h1>
                         </div>
                         <img src="../assets/Photography/Carpa-min.jpg" class="img-fluid rounded shadow my-5 first-img"
                             loading="lazy">
@@ -59,6 +59,9 @@
             <img class="rounded" src="../assets/Photography/IMG-20230826-WA0006.jpg" alt="Imagen 3">
             <img class="rounded" src="../assets/Photography/IMG-20230826-WA0024.jpg" alt="Imagen 3">
             <img class="rounded" src="../assets/Photography/IMG-20230826-WA0021.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0020.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0023.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/FP0A1878.jpg" alt="Imagen 3">
 
             <!-- Agrega más imágenes aquí -->
         </div>
