@@ -45,6 +45,29 @@
                             Software</a></p>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <a href="#" class="social-icon">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#" class="social-icon">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#" class="social-icon">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#" class="social-icon">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
+                <!-- Agrega más íconos de redes sociales aquí -->
+            </div>
         </div>
     </footer>
 </template>
