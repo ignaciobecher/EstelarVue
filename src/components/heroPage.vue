@@ -36,9 +36,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="lc-block col-3"><img class="img-fluid wp-image-975"
+                        <!-- <div class="lc-block col-3"><img class="img-fluid wp-image-975"
                                 src="../assets/logoConLetrasNaranjas.png" width="" height="300" srcset="" sizes="" alt="">
-                        </div>
+                        </div> -->
                         <div class="lc-block col-3"><img class="img-fluid wp-image-977"
                                 src="../assets/ParnertsLogos/PartnerLogo1.png" width="" height="300" srcset="" sizes=""
                                 alt=""></div>
