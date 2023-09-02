@@ -1,29 +1,32 @@
 <template>
-    <div class="container ">
-        <div class="row ">
+    <div class="container">
+        <div class="row">
             <div class="col-12 col-md-8 mx-md-auto mt-5 text-center">
-                <h1 class="mb-4"> Contacto</h1>
+                <h1 class="mb-4">Contacto</h1>
                 <form class="px-2 px-sm-5 py-5 rounded" ref="form" @submit.prevent="submit">
                     <div class="form-group">
                         <label for="phone">Nombre</label>
                         <input v-model="name" type="text" class="form-control" id="phone" placeholder="Ingrese su nombre"
-                            name="from_name">
+                            name="from_name" minlength="2">
                         <small id="phoneHelp" class="form-text"></small>
-                        <p v-if="v$.name.$error">Nombre Invalido</p>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input v-model="email" type="text" class="form-control" id="email" placeholder="Ingrese su mail"
-                            name="email_id">
+                            name="email_id" minlength="5">
                         <small id="emailHelp" class="form-text">Ingrese su email</small>
-                        <p v-if="v$.email.$error">Email Invalido</p>
                     </div>
                     <div class="form-group">
                         <label for="username">Consulta</label>
                         <input v-model="message" type="text" class="form-control" id="username"
-                            placeholder="Ingrese su consulta" name="message">
+                            placeholder="Ingrese su consulta" name="message" minlength="5">
                         <small id="usernameHelp" class="form-text">Ingrese su consulta</small>
-                        <p v-if="v$.message.$error">Mensaje Invalido</p>
+                    </div>
+                    <div v-if="showError">
+                        <h3>Todos los campos son obligatorios</h3>
+                    </div>
+                    <div v-if="showSent">
+                        <h3>Gracias por comunicarte</h3>
                     </div>
                     <button id="btnForm" class="btn btn-primary btn-lg px-4 border-primary">Enviar!</button>
                 </form>
@@ -31,11 +34,12 @@
         </div>
     </div>
 </template>
-
+  
 <script>
-import emailjs from "@emailjs/browser"
+import emailjs from '@emailjs/browser';
 import { useVuelidate } from '@vuelidate/core'
 import { required, email } from '@vuelidate/validators'
+
 export default {
     setup() {
         return { v$: useVuelidate() }
@@ -44,7 +48,9 @@ export default {
         return {
             email: "",
             name: "",
-            message: ""
+            message: "",
+            showError: false,
+            showSent: false
         }
     },
     validations: {
@@ -53,25 +59,30 @@ export default {
         message: { required }
     },
     methods: {
-        submit() { // Cambio de nombre de método a "submit"
+        submit() {
+
             if (this.v$.$invalid) {
-                window.alert("Formulario inválido");
+                this.showError = true
                 return;
+            } else {
+                this.showError = false
+                this.name = ""
+                this.email = ""
+                this.message = ""
+                this.showSent = true
             }
 
-
-
-            emailjs.sendForm('service_c2jbe85', 'template_j5ysu7q', this.$refs.form, '65U3gUdFV_lp5kx5e')
-                .then((result) => {
-                    console.log('SUCCESS!', result.text);
-                }, (error) => {
-                    console.log('FAILED...', error.text);
+            emailjs.send('service_c2jbe85', 'template_j5ysu7q', this.$refs.form, "65U3gUdFV_lp5kx5e")
+                .then(function (response) {
+                    console.log(response.status, response.text);
+                }, function (error) {
+                    console.log(error);
                 });
         }
     }
-
 }
 </script>
+  
 
 <style scoped>
 .btn:hover {

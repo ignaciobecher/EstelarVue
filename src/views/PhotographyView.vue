@@ -29,7 +29,8 @@
                         <div>
                             <h1 class="text-white fw-bold display-5">Impulsa el crecimiento de tu negocio con
                                 <span>fotografía</span> de
-                                primer nivel, a cargo de nuestro equipo de fotógrafos y editores profesionales.</h1>
+                                primer nivel, a cargo de nuestro equipo de fotógrafos y editores profesionales.
+                            </h1>
                         </div>
                         <img src="../assets/Photography/Carpa-min.jpg" class="img-fluid rounded shadow my-5 first-img"
                             loading="lazy">
@@ -51,19 +52,19 @@
 
     <div class="image-gallery-div">
         <div class="image-gallery">
-            <img class="rounded" src="../assets/Photography/_P0A1713.jpg" alt="Imagen 1">
-            <img class="rounded" src="../assets/Photography/casa.jpg" alt="Imagen 2">
-            <img class="rounded" src="../assets/Photography/_P0A1835.jpg" alt="Imagen 3">
-            <img class="rounded" src="../assets/Photography/_P0A1832b.jpg" alt="Imagen 3">
-            <img class="rounded" src="../assets/Photography/_P0A1522.jpg" alt="Imagen 3">
-            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0006.jpg" alt="Imagen 3">
-            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0024.jpg" alt="Imagen 3">
-            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0021.jpg" alt="Imagen 3">
-            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0020.jpg" alt="Imagen 3">
-            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0023.jpg" alt="Imagen 3">
-            <img class="rounded" src="../assets/Photography/FP0A1878.jpg" alt="Imagen 3">
+            <img class="rounded" src="../assets/Photography/_P0A1713.jpg" alt="Imagen 1" loading="lazy">
+            <img class="rounded" src="../assets/Photography/casa.jpg" alt="Imagen 2" loading="lazy">
+            <img class="rounded" src="../assets/Photography/_P0A1835.jpg" alt="Imagen 3" loading="lazy">
+            <img class="rounded" src="../assets/Photography/_P0A1832b.jpg" alt="Imagen 3" loading="lazy">
+            <img class="rounded" src="../assets/Photography/_P0A1522.jpg" alt="Imagen 3" loading="lazy">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0006.jpg" alt="Imagen 3" loading="lazy">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0024.jpg" alt="Imagen 3" loading="lazy">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0021.jpg" alt="Imagen 3" loading="lazy">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0020.jpg" alt="Imagen 3" loading="lazy">
+            <img class="rounded" src="../assets/Photography/IMG-20230826-WA0023.jpg" alt="Imagen 3" loading="lazy">
+            <img class="rounded" src="../assets/Photography/FP0A1878.jpg" alt="Imagen 3" loading="lazy">
 
-            <!-- Agrega más imágenes aquí -->
+
         </div>
     </div>
 
