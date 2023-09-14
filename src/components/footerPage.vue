@@ -37,7 +37,7 @@
 
         <div id="contactData" class="col-md-4 order-md-2 text-md-end">
           <p>Villa Mercedes (San Luis) <i class="bi bi-geo-alt"></i></p>
-          <!-- <p>2657-123456 <i class="bi bi-telephone"></i></p> -->
+          <p>2657-201291/221459/246942 <i class="bi bi-telephone"></i></p>
           <p>estelarmkting@gmail.com <i class="bi bi-envelope"></i></p>
         </div>
         <div class="col-md-4 order-md-3 text-center">
@@ -60,7 +60,10 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-auto">
-          <a href="#" class="social-icon">
+          <a
+            href="https://www.instagram.com/estelarsoluciones/"
+            class="social-icon"
+          >
             <i class="bi bi-instagram"></i>
           </a>
         </div>
